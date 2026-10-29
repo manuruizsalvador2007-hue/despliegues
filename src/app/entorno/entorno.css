@@ -1,0 +1,24 @@
+.entorno {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 8px solid var(--color);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--color) 12%, white);
+}
+.etiqueta {
+  background: var(--color);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+}
+.mensaje {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color);
+}
