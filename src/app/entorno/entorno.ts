@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Entorno {
   // Valores de esta rama. Cada rama (main, qa-pending, uat-pending) tiene los suyos.
-  nombreEntorno = 'DEV';
-  mensaje = 'Entorno sin configurar';
-  color = '#6b7280'; // gris (sin entorno asignado)
+  nombreEntorno = 'UAT';
+  mensaje = 'Entorno de aceptación UAT';
+  color = '#1565c0'; // azul
 }
