@@ -41,3 +41,7 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Componente de identificación de entorno: cada rama (main, qa-pending, uat-pending)
+# mantiene su propia versión y no se deben detectar cambios locales en él.
+src/app/entorno/
